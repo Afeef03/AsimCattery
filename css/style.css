@@ -358,6 +358,9 @@ i.fas.fa-chevron-up {
   }
 }
 @media (max-width: 550px) {
+  #row{
+    flex-direction: column-reverse;
+  }
   .navbar-brand {
     font-size: 22px !important;
   }
